@@ -34,14 +34,14 @@ svg{width:100%;height:auto}svg text{fill:var(--tx);font:13px sans-serif}
 <small>F мәндерін ретімен жазыңыз (<span id="ord"></span>) немесе кестеде ұяны басыңыз:</small>
 <input id="inp" inputmode="numeric" placeholder="11110000" autocomplete="off">
 <div style="text-align:center;overflow-x:auto" id="map"></div>
-<small>🔵 көк — 1-дер (ДНФ) · 🔴 қызыл — 0-дер (КНФ). Топтар 1, 2, 4, 8 болып, шеттері бір-бірімен жалғасады.</small>
+<small>🔵 көк — 1-дер (ЖҚҚФ) · 🔴 қызыл — 0-дер (СҚҚФ). Топтар 1, 2, 4, 8 болып, шеттері бір-бірімен жалғасады.</small>
 </div>
 <div class="card"><h2>Ақиқат кестесі (F мәнін басып өзгертуге болады)</h2>
 <div style="overflow-x:auto"><div id="tt"></div></div></div>
 
-<div class="card res"><h2>ДНФ (1-дер бойынша)</h2><div id="dnf"></div><h2 style="margin-top:10px">КНФ (0-дер бойынша)</h2><div id="knf"></div></div>
-<div class="card"><h2>ДНФ схемасы</h2><div class="sc" id="s1"></div></div>
-<div class="card"><h2>КНФ схемасы</h2><div class="sc" id="s2"></div></div>
+<div class="card res"><h2>ЖҚҚФ (1-лер бойынша)</h2><div id="dnf"></div><h2 style="margin-top:10px">СҚҚФ (0-дер бойынша)</h2><div id="knf"></div></div>
+<div class="card"><h2>ЖҚҚФ схемасы</h2><div class="sc" id="s1"></div></div>
+<div class="card"><h2>СҚҚФ схемасы</h2><div class="sc" id="s2"></div></div>
 </main>
 <script>
 const V=['A','B','C','D'],G=[0,1,3,2];let n=4,vals=[],N=16;
